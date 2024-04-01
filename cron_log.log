@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/karolk/Python_Work/ML_Price/CoinGecko_API_Data_Daily.py", line 22, in <module>
+    backup_path = backup_path.replace('Backup', str(today))
+                                                    ^^^^^
+NameError: name 'today' is not defined
+Traceback (most recent call last):
+  File "/Users/karolk/Python_Work/ML_Price/CoinGecko_API_Data_Daily.py", line 28, in <module>
+    df.to_csv(backup_path, mode='a', header=True, index=False)
+    ^^
+NameError: name 'df' is not defined
